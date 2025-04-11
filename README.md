@@ -11,9 +11,9 @@
 
 ## 3. News and upcoming updates
 
-- [x] **Feb 2025** We initiated the process to open-source codes & models
-- [ ] **Mar 2025** We will release the source code of VPViT & VPViT based FSKD
-- [ ] **Apr 2025** We will release our trained models
+- [x] We initiated the process to open-source codes & models
+- [ ] We will release the source code of VPViT & VPViT based FSKD
+- [ ] We will release our trained models
 
 <!-- ## Citation
 If you find our ideas interesting and helpful in your research, please cite our paper. Many thanks!
