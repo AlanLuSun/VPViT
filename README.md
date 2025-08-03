@@ -13,7 +13,7 @@
 
 - [x] We initiated the process to open-source codes & models
 - [ ] ***We will release the source code of VPViT model and VPViT based FSKD upon the acceptance of our paper***
-- [ ] ***We will release our trained models*** 
+- [ ] ***We will release our trained models upon the acceptance of our paper***
 
 <!-- ## Citation
 If you find our ideas interesting and helpful in your research, please cite our paper. Many thanks!
