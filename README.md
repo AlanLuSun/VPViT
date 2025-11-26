@@ -17,9 +17,9 @@
 ## 3. VPViT Model
 We released the codes of visual prior guided vision transformer (VPViT) which includes the components of Morphology Learner (ML) and Adapted Masked Self-attention (AMSA), as shown in python file ```network/models_fskd_vit.py```.
 
-Moreover, we released the implementation of transductive few-shot keypoint detection, which refines the predicted keypoint by selecting the high-quality pseudo-labels, which can be found in file ```val_transductive.py``` (see functions ```val_transductive()``` and ```iter_transductive()```)
+Moreover, we released the implementation of transductive few-shot keypoint detection which is used during evaluation. Transductive inference can refine the predicted keypoint by selecting the high-quality pseudo-labels, which can be found in file ```val_transductive.py``` (see functions ```val_transductive()``` and ```iter_transductive()```)
 
-*Since the entire model codes were a bit obsolete after the acceptance of our IJCV paper (two years passed), we only released the most valuable parts related to our paper for your reference. Hope they can inspire your future research. Thanks to your understanding!*
+*Since the entire model codes were a bit obsolete after the acceptance of our IJCV paper (two years passed), we only released the most original \& valuable parts related to our paper for your reference. Hope they can inspire your future research. Thanks to your understanding!*
 
 
 ## Citation
