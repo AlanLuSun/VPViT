@@ -5,29 +5,36 @@
 - Tasks handled by our model:
 <img src="./pics/VPViT-tasks.png" width="100%"> 
 
+<!-- ## 3. News and upcoming updates
+
+- [x] We initiated the process to open-source codes & models
+- [x] ***We will release the source code of VPViT model and VPViT based FSKD upon the acceptance of our paper*** -->
+
 ## 2. Requirements
 - Python 3.10
 - Pytorch 1.12
 
-## 3. News and upcoming updates
+## 3. VPViT Model
+We released the codes of visual prior guided vision transformer (VPViT) which includes the components of Morphology Learner (ML) and Adapted Masked Self-attention (AMSA), as shown in python file ```network/models_fskd_vit.py```.
 
-- [x] We initiated the process to open-source codes & models
-- [ ] ***We will release the source code of VPViT model and VPViT based FSKD upon the acceptance of our paper***
-- [ ] ***We will release our trained models upon the acceptance of our paper***
+Moreover, we released the implementation of transductive few-shot keypoint detection, which refines the predicted keypoint by selecting the high-quality pseudo-labels, which can be found in file ```val_transductive.py```.
 
-<!-- ## Citation
+*Since the entire model codes were a bit obsolete after the acceptance of our IJCV paper (two years passed), we only released the most valuable parts related to our paper for your reference. Hope they can inspire your future research. Thanks to your understanding!*
+
+
+## Citation
 If you find our ideas interesting and helpful in your research, please cite our paper. Many thanks!
 
 ```
-@inproceedings{lu2022few,
-  title={Few-shot keypoint detection with uncertainty learning for unseen species},
-  author={Lu, Changsheng and Koniusz, Piotr},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+@inproceedings{lu2025exploiting,
+  title={Exploiting Class-agnostic Visual Prior for Few-shot Keypoint Detection},
+  author={Lu, Changsheng and Zhu, Hao and Koniusz, Piotr},
+  booktitle={International Journal of Computer Vision},
   pages={19416--19426},
-  year={2022}
+  year={2025}
 }
-``` -->
+```
 
-## 4. Contact
+<!-- ## 4. Contact
 
- * Raise a new [GitHub issue](https://github.com/AlanLuSun/VPViT/issues/new)
+ * Raise a new [GitHub issue](https://github.com/AlanLuSun/VPViT/issues/new) -->
