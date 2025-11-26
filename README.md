@@ -19,8 +19,9 @@ We released the codes of visual prior guided vision transformer (VPViT) which in
 
 Moreover, we released the implementation of transductive few-shot keypoint detection which is used during evaluation. Transductive inference can refine the predicted keypoint by selecting the high-quality pseudo-labels, which can be found in file ```val_transductive.py``` (see functions ```val_transductive()``` and ```iter_transductive()```)
 
-*Since the entire model codes were a bit obsolete after the acceptance of our IJCV paper (two years passed), we only released the most original \& valuable parts related to our paper for your reference. Hope they can inspire your future research. Thanks to your understanding!*
+*Since the entire model codes were a bit obsolete after the acceptance of our IJCV paper (two years passed), we only released the most original \& valuable parts related to our paper for your reference. Hope they can inspire your future research. Thanks to your understanding!* 
 
+You are welcome to check out our latest work [**OpenKD**](https://github.com/AlanLuSun/OpenKD) which is for both zero- and few-shot keypoint detection.
 
 ## Citation
 If you find our ideas interesting and helpful in your research, please cite our paper. Many thanks!
